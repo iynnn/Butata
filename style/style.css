@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* Atur font Poppins */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-custom {
+  /* background: linear-gradient(to right, #eee, #fff,) url("../img/header.svg"); */
+  background: linear-gradient(
+      to right,
+      rgba(238, 238, 238, 0.75),
+      rgba(255, 255, 255, 0.75)
+    ),
+    url("../img/header.svg");
+
+  background-size: cover; /* Atur ukuran gambar */
+  background-position: center; /* Posisikan gambar di tengah */
+  background-repeat: no-repeat; /* Hindari pengulangan gambar */
+}
