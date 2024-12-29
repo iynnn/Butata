@@ -191,7 +191,7 @@ function updateTanggalHariIni() {
     return;
   }
 
-  console.log(`waktu tersisa ${waktuTersisa}`);
+  //   console.log(`waktu tersisa ${waktuTersisa}`);
 
   // Jadwalkan pembaruan berikutnya
   setTimeout(updateTanggalHariIni, waktuTersisa);
