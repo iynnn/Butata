@@ -120,7 +120,7 @@ function changeQuote() {
   const angkaRandom = Math.floor(Math.random() * listQuotes.length);
 
   // Tampilkan kutipan dan penulis
-  quote.innerHTML = `<i>${listQuotes[angkaRandom].quote}</i>`;
+  quote.innerHTML = `<i>"${listQuotes[angkaRandom].quote}</i>"`;
   author.textContent = listQuotes[angkaRandom].author;
 }
 
